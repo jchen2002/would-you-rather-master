@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav ul {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  height: 30px;
+}
+
+.nav li {
+  padding-right: 30px;
+  width: 150px;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.avatar {
+  height: 50px;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  margin: auto;
+  color: white;
+  background-color: #20b2aa;
+}
+
+.questioninput {
+  width: 80%;
+}
+
+.submitbutton {
+  background-color: #20b2aa;
+}
+
+.center-block {
+  margin: auto;
+  display: block;
+}
+
+.questiontab {
+  margin: auto;
+  width: 40%;
+}
+
+progress {
+  text-align: center;
+  height: 2em;
+  width: 80%;
+  -webkit-appearance: none;
+  border: none;
+  
+  /* Set the progressbar to relative */
+  position:relative;
+}
+
+progress:before {
+  content: attr(data-label);
+  font-size: 1.0em;
+  vertical-align: 0;
+  
+  /*Position text over the progress bar */
+  position:absolute;
+  left:0;
+  right:0;
+}
+progress::-webkit-progress-bar {
+  background-color: #c9c9c9;
+}
+progress::-webkit-progress-value {
+  background-color: lightseagreen;
+}
+progress::-moz-progress-bar {
+  background-color: lightseagreen;
+}
+
+.labelright{
+  float: right;
+  background-color: yellow;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+img.avatar {
+  float: left;
+}
+
+/* login */
+select.dropdown {
+  width: 80%;
+  margin: 25px auto;
+  display: block;
+}
+
+/* vote */
+div.vote {
+  width: 100%;
+  min-height: 150px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  display: table;
+  margin: 5px auto;
+}
+
+div.vote > div.title {
+  margin: 0;
+  padding: 5px;
+  background-color: #20b2aa;
+}
+
+div.vote > div.detail {
+  width: 80%;
+  margin: 0;
+  float: right;
+}
+
+div.vote button {
+  width: 80%;
+  margin: 10px auto;
+}
+
+div.newquestion {
+  margin: auto;
+  border: 2px solid;
+  width: 40%;
+}
+
+/* poll */
+div.poll {
+  width: 40%;
+  min-height: 150px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  display: table;
+  margin: auto;
+}
+
+div.poll > div.detail {
+  width: 70%;
+  margin: 0;
+  float: right;
+  margin: auto;
+  display: block;
+  color: lightseagreen;
+}
+
+/* voteresult */
+div.voteresult {
+  width: 40%;
+  min-height: 150px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  display: table;
+  margin: auto;
+  padding: 5px;
+}
+
+div.voteresult > div.detail {
+  width: 70%;
+  margin: 0;
+  float: right;
+  margin: 5px auto;
+  display: block;
+  border: 2px solid #d3d3d3;
+}
+

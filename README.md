@@ -3,7 +3,7 @@
 
 ### instructions
 1. clone the project from github:https://github.com/jchen2002/would-you-rather-master.git
-2. cd to would-you-rather folder,
+2. cd to would-you-rather-master folder,
 3. run the following dependencies:
    $npm install
    $npm install react-router-dom
